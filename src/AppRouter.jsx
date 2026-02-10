@@ -14,6 +14,12 @@ import ProductTemplatePage from "./pages/ProductTemplatePage";
 import ProductListPage from "./pages/ProductListPage";
 import ProductCreatePage from "./pages/ProductCreatePage";
 import OrderReceivePage from "./pages/OrderReceivePage";
+import CustomerRateContractPage from "./pages/CustomerRateContractPage";
+import RunningOpenOrderPage from "./pages/RunningOpenOrderPage";
+import OrderInHandPage from "./pages/OrderInHandPage";
+import OrderFulfilmentPage from "./pages/OrderFulfilmentPage";
+import OrderFulfilmentRentalPage from "./pages/OrderFulfilmentRentalPage";
+import BulkOrderFulfilmentPage from "./pages/BulkOrderFulfilmentPage";
 
 const Navigation = () => {
   return (
@@ -36,7 +42,12 @@ const Navigation = () => {
         <Route path="/product-template" Component={ProductTemplatePage} />
         <Route path="/product-create" Component={ProductCreatePage} />
         <Route path="/order-receive" Component={OrderReceivePage} />
-
+        <Route path="/customer-rate-contract" Component={CustomerRateContractPage} />
+        <Route path="/running-open-order" Component={RunningOpenOrderPage} />
+        <Route path="/order-in-hand" Component={OrderInHandPage} />
+        <Route path="/order-fulfilment" Component={OrderFulfilmentPage} />
+        <Route path="/order-fulfilment-rental" Component={OrderFulfilmentRentalPage} />
+        <Route path="/bulk-order-fulfilment" Component={BulkOrderFulfilmentPage} />
       </Routes>
     </Router>
   );
