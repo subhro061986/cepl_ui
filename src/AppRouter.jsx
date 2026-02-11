@@ -20,6 +20,12 @@ import OrderInHandPage from "./pages/OrderInHandPage";
 import OrderFulfilmentPage from "./pages/OrderFulfilmentPage";
 import OrderFulfilmentRentalPage from "./pages/OrderFulfilmentRentalPage";
 import BulkOrderFulfilmentPage from "./pages/BulkOrderFulfilmentPage";
+import BulkOrderFulfilmentApprovalPage from "./pages/BulkOrderFulfilmentApprovalPage";
+import AddAccessoryPage from "./pages/AddAccessoryPage";
+import AssignedOrderInhandPage from "./pages/AssignedOrderInhandPage";
+import ProcurementListPage from "./pages/ProcurementListPage";
+import ProcurementPage from "./pages/ProcurementPage";
+import ProcurementRentalPage from "./pages/ProcurementRentalPage";
 
 const Navigation = () => {
   return (
@@ -48,6 +54,12 @@ const Navigation = () => {
         <Route path="/order-fulfilment" Component={OrderFulfilmentPage} />
         <Route path="/order-fulfilment-rental" Component={OrderFulfilmentRentalPage} />
         <Route path="/bulk-order-fulfilment" Component={BulkOrderFulfilmentPage} />
+        <Route path="/bulk-order-fulfilment-approval" Component={BulkOrderFulfilmentApprovalPage} />
+        <Route path="/add-accessory" Component={AddAccessoryPage} />
+        <Route path="/assigned-order-in-hand" Component={AssignedOrderInhandPage} />
+        <Route path="/procurement-list" Component={ProcurementListPage} />
+        <Route path="/procurement" Component={ProcurementPage} />
+        <Route path="/procurement-rental" Component={ProcurementRentalPage} />
       </Routes>
     </Router>
   );

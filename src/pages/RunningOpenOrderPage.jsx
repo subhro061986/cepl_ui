@@ -74,7 +74,7 @@ const RunningOpenOrderPage = () => {
                   <th className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">Shipping Address</th>
                   <th className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">PO No.</th>
                   <th className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">PO Date</th>
-                  <th className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">Effective Rental Start</th>
+                  <th className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">Effective <br/>Rental Start</th>
                   <th className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">Exp. Return</th>
                   <th className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">Type</th>
                   <th className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">Exec.</th>
@@ -89,7 +89,7 @@ const RunningOpenOrderPage = () => {
               <tbody className="divide-y divide-slate-200 dark:divide-slate-800">
                 <tr className="bg-sky-50 dark:bg-sky-950/20">
                   <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">1011</td>
-                  <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700 font-medium">M/s SPG</td>
+                  <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700 font-medium">Spring and River</td>
                   <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">23, CDM St. Kolkata</td>
                   <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">23, CDM St. Kolkata</td>
                   <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">234</td>
@@ -113,7 +113,7 @@ const RunningOpenOrderPage = () => {
                 </tr>
                 <tr className="hover:bg-slate-50 dark:hover:bg-slate-800/50">
                   <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">1012</td>
-                  <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700 font-medium">L&amp;T</td>
+                  <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700 font-medium">iMerit Technology Services Pvt. Ltd. (ISD)</td>
                   <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">15, KKM St. Kolkata</td>
                   <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">15, KKM St. Kolkata</td>
                   <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">973</td>
@@ -138,8 +138,8 @@ const RunningOpenOrderPage = () => {
                 <tr className="hover:bg-slate-50 dark:hover:bg-slate-800/50">
                   <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">1013</td>
                   <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700 font-medium">ACC ltd</td>
-                  <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">82, Park St, Kolkata</td>
-                  <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">82, Park St, Kolkata</td>
+                  {/* <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">82, Park St, Kolkata</td>
+                  <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">82, Park St, Kolkata</td> */}
                   <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">423</td>
                   <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">23-12-2023</td>
                   <td className="px-4 py-3 border-r border-slate-200 dark:border-slate-700">01-01-2024</td>
