@@ -31,6 +31,9 @@ import OpenChallanPage from "./pages/OpenChallanPage";
 import DeliveryRentalChallanPage from "./pages/DeliveryRentalChallanPage";
 import DeliveryChallanOthersPage from "./pages/DeliveryChallanOthersPage";
 import GinOthersPage from "./pages/GinOthersPage";
+import GinRentalsPage from "./pages/GinRentalsPage";
+import GinListPage from "./pages/GinListPage";
+import GinInspectionReportPage from "./pages/GinInspectionReportPage";
 
 const Navigation = () => {
   return (
@@ -70,6 +73,9 @@ const Navigation = () => {
         <Route path="/delivery-rental-challan" Component={DeliveryRentalChallanPage} />
         <Route path="/delivery-challan-others" Component={DeliveryChallanOthersPage} />
         <Route path="/gin-others" Component={GinOthersPage} />
+        <Route path="/gin-rentals" Component={GinRentalsPage} />
+        <Route path="/gin-list" Component={GinListPage} />
+        <Route path="/gin-inspection-report" Component={GinInspectionReportPage} />
       </Routes>
     </Router>
   );
