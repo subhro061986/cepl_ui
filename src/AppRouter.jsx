@@ -26,6 +26,11 @@ import AssignedOrderInhandPage from "./pages/AssignedOrderInhandPage";
 import ProcurementListPage from "./pages/ProcurementListPage";
 import ProcurementPage from "./pages/ProcurementPage";
 import ProcurementRentalPage from "./pages/ProcurementRentalPage";
+import CartPage from "./pages/CartPage";
+import OpenChallanPage from "./pages/OpenChallanPage";
+import DeliveryRentalChallanPage from "./pages/DeliveryRentalChallanPage";
+import DeliveryChallanOthersPage from "./pages/DeliveryChallanOthersPage";
+import GinOthersPage from "./pages/GinOthersPage";
 
 const Navigation = () => {
   return (
@@ -60,6 +65,11 @@ const Navigation = () => {
         <Route path="/procurement-list" Component={ProcurementListPage} />
         <Route path="/procurement" Component={ProcurementPage} />
         <Route path="/procurement-rental" Component={ProcurementRentalPage} />
+        <Route path="/cart" Component={CartPage} />
+        <Route path="/open-challan" Component={OpenChallanPage} />
+        <Route path="/delivery-rental-challan" Component={DeliveryRentalChallanPage} />
+        <Route path="/delivery-challan-others" Component={DeliveryChallanOthersPage} />
+        <Route path="/gin-others" Component={GinOthersPage} />
       </Routes>
     </Router>
   );

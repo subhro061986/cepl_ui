@@ -36,7 +36,7 @@ const LoginPage = () => {
               User Name
             </label>
             <div className="relative">
-              <input className="w-full px-4 py-3.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none text-slate-900 dark:text-white placeholder-slate-400" id="username" placeholder="Your Email ID" type="text" />
+              <input className="w-full px-4 py-3.5 bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none text-slate-900 dark:text-white placeholder-slate-400" id="username" placeholder="Your Email ID" type="text" />
               {/* <span className="material-icons-outlined absolute right-4 top-1/2 -translate-y-1/2 text-slate-400">
                 mail_outline
               </span> */}
@@ -48,7 +48,7 @@ const LoginPage = () => {
               Password
             </label>
             <div className="relative">
-              <input className="w-full px-4 py-3.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none text-slate-900 dark:text-white placeholder-slate-400" id="password" placeholder="Enter your password" type="password" />
+              <input className="w-full px-4 py-3.5 bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none text-slate-900 dark:text-white placeholder-slate-400" id="password" placeholder="Enter your password" type="password" />
               {/* <span className="material-icons-outlined absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 cursor-pointer hover:text-slate-600 dark:hover:text-slate-200">
                 visibility_off
               </span> */}
@@ -59,7 +59,7 @@ const LoginPage = () => {
             </div>
           </div>
           <div className="pt-4 flex justify-center">
-            <button className="w-full md:w-48 bg-[#d11a50] hover:bg-[#d11a50] active:scale-95 text-white font-bold py-3.5 rounded-xl shadow-lg shadow-accent/20 transition-all duration-200 text-lg" type="submit">
+            <button className="w-full md:w-48 bg-secondary hover:bg-[#d11a50] active:scale-95 text-white font-bold py-3.5 rounded-xl shadow-lg shadow-accent/20 transition-all duration-200 text-lg" type="submit">
               Submit
             </button>
           </div>
