@@ -34,6 +34,9 @@ import GinOthersPage from "./pages/GinOthersPage";
 import GinRentalsPage from "./pages/GinRentalsPage";
 import GinListPage from "./pages/GinListPage";
 import GinInspectionReportPage from "./pages/GinInspectionReportPage";
+import AssetsConfigurationSitePage from "./pages/AssetsConfigurationSitePage";
+import BillingReportPage from "./pages/BillingReportPage";
+import StockValidationPage from "./pages/StockValidationPage";
 
 const Navigation = () => {
   return (
@@ -76,6 +79,9 @@ const Navigation = () => {
         <Route path="/gin-rentals" Component={GinRentalsPage} />
         <Route path="/gin-list" Component={GinListPage} />
         <Route path="/gin-inspection-report" Component={GinInspectionReportPage} />
+        <Route path="/assets-configuration-site" Component={AssetsConfigurationSitePage} />
+        <Route path="/billing-report" Component={BillingReportPage} />
+        <Route path="/stock-validation" Component={StockValidationPage} />
       </Routes>
     </Router>
   );
